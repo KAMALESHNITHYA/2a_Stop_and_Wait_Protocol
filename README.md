@@ -13,27 +13,34 @@ To write a python program to perform stop and wait protocol
 #### REGISTER NUMBER:212223230094
 ### CLIENT
 ```
+# importing the socket
 import socket 
 s=socket.socket() 
 s.bind(('localhost',8000))
 s.listen(5) 
-c,addr=s.accept() 
-while True: 
+c,addr=s.accept()
+# using while loop for the execution
+while True:
+# taking the input from the user
     i=input("Enter a data: ") 
     c.send(i.encode()) 
     ack=c.recv(1024).decode() 
-    if ack: 
+    if ack:
+# if the condition is true, it is printed and continued
         print(ack) 
         continue 
-    else: 
+    else:
+# if the condition is false, it is closed and break
         c.close() 
         break 
 ```
 ### SERVER
 ```
+# importing the socket
 import socket 
 s=socket.socket() 
-s.connect(('localhost',8000)) 
+s.connect(('localhost',8000))
+# using while loop for the execution
 while True: 
     print(s.recv(1024).decode()) 
     s.send("Acknowledgement Recived".encode()) 
