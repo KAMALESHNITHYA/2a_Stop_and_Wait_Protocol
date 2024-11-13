@@ -1,9 +1,5 @@
 # 2a_Stop_and_Wait_Protocol
 
-# Name : KAMALESH R
-# Register Number : 212223230094
-
-
 ## AIM 
 To write a python program to perform stop and wait protocol
 ## ALGORITHM
@@ -52,11 +48,8 @@ while True:
 ```
 ## OUTPUT
 
-### CLIENT 
-![image](https://github.com/user-attachments/assets/300d231a-89b2-4d37-a342-1375611c1bb7)
+![2A](https://github.com/user-attachments/assets/281e35f6-e394-4229-b0e6-74f5827a7604)
 
-### SERVER
-![image](https://github.com/user-attachments/assets/4ec40f45-f797-4415-8d5b-456ac4783158)
 
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed.
