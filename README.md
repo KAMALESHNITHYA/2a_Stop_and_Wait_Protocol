@@ -1,5 +1,8 @@
 # 2a_Stop_and_Wait_Protocol
 
+#### NAME:KAMALESH R
+#### REGISTER NUMBER:212223230094
+
 ## AIM 
 To write a python program to perform stop and wait protocol
 ## ALGORITHM
@@ -10,8 +13,7 @@ To write a python program to perform stop and wait protocol
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-#### NAME:KAMALESH R
-#### REGISTER NUMBER:212223230094
+
 ### CLIENT
 ```
 # importing the socket
